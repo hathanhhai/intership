@@ -1,0 +1,8 @@
+RewriteEngine On
+
+
+RewriteRule "trang-chu.html" "index.php"
+RewriteRule ^danh-muc-([a-zA-Z0-9_-]+)-([0-9]+).html$ category.php?id=$2
+RewriteRule ^the-loai-([a-zA-Z0-9_-]+)-([0-9]+).html$ kind.php?id=$2
+RewriteRule ^san-pham-([a-zA-Z0-9_-]+)-([0-9]+).html$ detail.php?id=$2
+
